@@ -12,7 +12,8 @@
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /> --> 
 
   <style>
-    *{
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -24,10 +25,9 @@
 }
 /* variables  */
 :root{
-    /* --main-color: #ff2c1f; */
-    /* background-color: blue; */
-    --text-color: rgb(161, 32, 32);
-    --bg-color: rgb(245, 245, 245);
+    --main-color: #ff2c1f;
+    --text-color: #020307;
+    --bg-color: #fff;
 }
 
 body{
@@ -58,10 +58,9 @@ header.shadow .logo{
     color: var(--text-color);
 }
 
+
 .logo{
-    font-size: 40px;
-    background-color: #ff2c1f;
-    border-radius: 15px;
+    font-size: 1.1rem;
     font-weight: 600;
     align-items: center;
     color: var(--bg-color);
@@ -81,7 +80,6 @@ header.shadow .logo{
 .navbar a{
     font-size: 1rem;
     font-weight: 500;
-    /* border-radius: 100px; */
     color: var(--bg-color);
 }
 .navbar a::after{
@@ -92,7 +90,7 @@ header.shadow .logo{
     position: absolute;
     bottom: -4px;
     left: 0;
-    /* transition: 0.4s all linear; */
+    transition: 0.4s all linear;
 }
 .navbar a:hover::after,
 .navbar .home-active::after{
@@ -408,7 +406,7 @@ section{
     .movies-container{
         grid-template-columns: repeat(auto-fit, minmax(140px, auto));
     }
-}
+}}
   </style>
 </head>
 <body>
